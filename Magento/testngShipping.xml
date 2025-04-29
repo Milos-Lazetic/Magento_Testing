@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteShipping">
+  <test thread-count="5" name="Shipping">
+    <classes>
+      <class name="testClasses.MagentoShipping_testClass"/>
+    </classes>
+  </test> <!-- Shipping -->
+</suite> <!-- SuiteShipping -->

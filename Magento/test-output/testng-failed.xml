@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteShipping]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Shipping(failed)">
+    <classes>
+      <class name="testClasses.MagentoShipping_testClass">
+        <methods>
+          <include name="checkout"/>
+          <include name="initialization"/>
+          <include name="shipping"/>
+        </methods>
+      </class> <!-- testClasses.MagentoShipping_testClass -->
+    </classes>
+  </test> <!-- Shipping(failed) -->
+</suite> <!-- Failed suite [SuiteShipping] -->
